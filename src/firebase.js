@@ -5,12 +5,11 @@ import { toast } from "react-toastify";
 
 const firebaseConfig = {
   apiKey: import.meta.env.VITE_API_KEY,
-  authDomain: "netflix-clone-9cd21.firebaseapp.com",
-  projectId: "netflix-clone-9cd21",
-  storageBucket: "netflix-clone-9cd21.firebasestorage.app",
-  messagingSenderId: "326032244057",
-  appId: "1:326032244057:web:fd0fa53b8fee420b9de048",
-  measurementId: "G-295N6NE48P"
+  authDomain: "hacktoberfest-79de9.firebaseapp.com",
+  projectId: "hacktoberfest-79de9",
+  storageBucket: "hacktoberfest-79de9.firebasestorage.app",
+  messagingSenderId: "634076658995",
+  appId: "1:634076658995:web:c6e971c7104b9816515246",
 };
 
 const app = initializeApp(firebaseConfig);
